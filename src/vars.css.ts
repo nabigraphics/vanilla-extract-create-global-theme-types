@@ -13,3 +13,13 @@ export const vars = createGlobalThemeContract({
 //     gray100: 'color-gray-100',
 //   },
 // });
+
+// Working 2 - Add mapFn
+// export const vars = createGlobalThemeContract(
+//   {
+//     color: {
+//       gray100: null,
+//     },
+//   },
+//   (_value, path) => `test-${path.join("-")}`
+// );
